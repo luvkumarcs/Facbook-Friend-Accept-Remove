@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxsa{
+    width: 20%;
+    height: 60%;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vw 0;
+    gap: 0.5vw;
+    border-radius: 1vw;
+    position: relative;
+}
+.img{
+    width: 90%;
+    height: 60%;
+    background-color: green;
+    background: url("./girlie-8749758_960_720.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+}
+.boxsa h2{
+    color: white;
+    font-size: 2vw;
+    font-weight: 800;
+}
+.boxsa h4{
+    color:red;
+    font-size: 1.5vw;
+}
+.boxsa button{
+    width: 7vw;
+    height: 2vw;
+    border-radius: 3vw;
+    background-color: grey;
+    border: none;
+    font-size:1vw;
+    font-weight: 400 ;
+}
+.child{
+    width: 8rem;
+    height: 8rem;
+    background-color: green;
+    position: absolute;
+    top: 38%;
+    left: 9%;
+    border-radius: 50%;
+    /* background: url(./child-7070573_960_720.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; */
+}
+.child img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
